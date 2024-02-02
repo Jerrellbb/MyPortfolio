@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black; 
+  z-index: 1000;
+  button{
+    margin: 3px;
+
+    background: none;
+    border: none;
+    border-bottom: solid transparent; 
+    transition: border-bottom 0.3s ease-in; 
+    cursor: pointer;
+    color: white;
+    
+  }
+  
+}
+button:hover{
+border-bottom: solid white;
+
+    }

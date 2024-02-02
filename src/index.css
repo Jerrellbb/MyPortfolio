@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-images {
+  position: relative;
+  border-radius: 10px;
+  height: 400px;
+  max-width: 650px;
+  margin: auto;
+  overflow: hidden;
+}

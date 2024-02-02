@@ -1,0 +1,67 @@
+.carousel  {
+  position: relative;
+  border-radius: 10px;
+  max-height: 350px;
+  max-width: 650px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel img {
+  width: 640px;
+  height: 310px;
+  border-radius: 8px;
+  border: #e7e1e18e solid 2px;
+}
+
+.slide_direction {
+  display: flex;
+  justify-content: space-between;
+}
+.left,
+.right {
+  
+  color: #fff;
+  padding: 10px 8px 8px 13px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 5px;
+  height: 30px;
+  width: 30px;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+.indicator {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.dot {
+  background-color: #faf9f9;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  
+}
+.active {
+  background-color: #fa2020;
+}
+
+.carousel img.hiddenRight {
+  z-index: 0; /* Ensure hidden images are behind the visible one */
+}
+
+.carousel img.hiddenLeft {
+  z-index: 0;
+}
+
+.carousel img.exit {
+  z-index: 2; /* Ensure the exiting image is on top during exit animation */
+}
+

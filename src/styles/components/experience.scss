@@ -1,0 +1,48 @@
+
+.experience-wrapper{
+background-color: white;
+padding: 20px;
+}
+
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+
+  .ga-text {
+    width: 60%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;  
+    padding:30px;
+  }
+
+  .ga-logo {
+    max-width: 35%;
+    text-align: right;
+    align-self: flex-start;
+    padding:50px;
+    img {
+      max-width: 100%;
+      height: 100px;
+    }
+    p{
+      text-align: center;
+      margin-top: 14px;
+    }
+  }
+
+  
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+
+    .ga-text, .ga-logo {
+      max-width: 100%;
+    }
+    .ga-logo{
+      margin: 0 auto
+    }
+  }
+}
