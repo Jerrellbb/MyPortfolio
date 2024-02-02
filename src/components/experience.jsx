@@ -8,7 +8,7 @@ export default function experience() {
 
       <div className="experience-wrapper">
         <h3>Experience</h3>
-        <div className="experience">
+        <div className="experience-container">
           <div className="ga-text">
             <p>As a Software Engineering Student at General Assembly, I completed a three-month remote programming bootcamp focused on web development and design.</p>
 

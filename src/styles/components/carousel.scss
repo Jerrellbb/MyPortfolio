@@ -11,7 +11,7 @@
   width: 640px;
   height: 310px;
   border-radius: 8px;
-  border: #e7e1e18e solid 2px;
+  
 }
 
 .slide_direction {
@@ -65,3 +65,12 @@
   z-index: 2; /* Ensure the exiting image is on top during exit animation */
 }
 
+@media (max-width: 768px){
+  .carousel{
+    margin-top: 15px;
+  }
+  .carousel img {
+    max-width: 99%;
+    max-height: 99%;
+  }
+}

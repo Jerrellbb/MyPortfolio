@@ -23,8 +23,8 @@ function App() {
         <div >
           <Nav />
           
-        </div>
-        <div>
+        </div >
+        <div >
           
           <TextAnimation />
         </div>

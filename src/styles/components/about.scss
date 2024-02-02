@@ -61,7 +61,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+  .bio{
+    max-width: 80vw;
+  }
 
   
+}
+.skill-icons{
+  max-width: 80vw;
 }
 }

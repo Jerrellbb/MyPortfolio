@@ -4,7 +4,7 @@ background-color: white;
 padding: 20px;
 }
 
-.experience {
+.experience-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,11 +38,15 @@ padding: 20px;
   @media (max-width: 768px) {
     flex-direction: column-reverse;
 
-    .ga-text, .ga-logo {
-      max-width: 100%;
-    }
+    
+      
+      .ga-text{
+        width: 100%;
+      }
+    
     .ga-logo{
-      margin: 0 auto
+      margin: 0 auto;
+      max-width: 100%;
     }
   }
 }
