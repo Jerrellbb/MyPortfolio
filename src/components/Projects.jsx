@@ -34,7 +34,7 @@ export default function Projects() {
                     <h3>Project 1: Ninjump</h3>
                     <p>Solo Project</p>
                     <p>
-                      Links: <a href="Ninjump">Ninjump</a>, <a href="https://github.com/Jerrellbb/Ninja-Frogger" target="_blank" rel="noreferrer">GitHub</a>
+                      Links: <a href="https://jerrellbb.github.io/Ninja-Frogger/" target="_blank" rel="noreferrer">Ninjump</a>, <a href="https://github.com/Jerrellbb/Ninja-Frogger" target="_blank" rel="noreferrer">GitHub</a>
                     </p>
                   </div>
 
@@ -47,15 +47,15 @@ export default function Projects() {
               <Col md={6}>
                 <div className="project-container">
                   <div className="info-centered">
-                    <h3>Project 2: Super Hero Search</h3>
+                    <h3>Project 2: Heroes and Villains</h3>
                     <p>Paired-project</p>
                     <p>
-                      Links: <a href="Super Hero Search">Super Hero Search</a>, <a href="https://github.com/Jerrellbb/Super-Heroes-Search" target="_blank" rel="noreferrer">GitHub</a>
+                      Links: <a href="https://superherosearch.netlify.app/"  target="_blank" rel="noreferrer">Heroes and Villains</a>, <a href="https://github.com/Jerrellbb/Heroes-and-Villains" target="_blank" rel="noreferrer">GitHub</a>
                     </p>
                   </div>
 
                   <p>
-                    I teamed up for a quick two-day project, building the &quot;SuperHero Search&quot; app. We used React for the look, MongoDB to handle data, and Cloudinary for images. Together, we tackled challenges by coding side by side and we connected to a third-party API, enabling the seamless retrieval of information on 731 heroes and villains.
+                    I teamed up for a quick two-day project, building the &quot;Heroes and Villains&quot; app. We used React for the look, MongoDB to handle data, and Cloudinary for images. Together, we tackled challenges by coding side by side and we connected to a third-party API, enabling the seamless retrieval of information on 731 heroes and villains.
                   </p>
                 </div>
               </Col>
@@ -68,7 +68,7 @@ export default function Projects() {
                     <h3>Project 3: Legends Of The Turf</h3>
                     <p>Group of three</p>
                     <p>
-                      Links: <a href="Legends of The Turf">Legends of The Turf</a>, <a href="https://github.com/Jerrellbb/legends-of-the-turf" target="_blank" rel="noreferrer">GitHub</a>
+                      Links: <a href="https://legends-of-the-turf-657a9862baae.herokuapp.com/" target="_blank" rel="noreferrer">Legends of The Turf</a>, <a href="https://github.com/Jerrellbb/legends-of-the-turf" target="_blank" rel="noreferrer">GitHub</a>
                     </p>
                   </div>
 
@@ -84,7 +84,7 @@ export default function Projects() {
                     <h3>Project 4: TechFolio</h3>
                     <p>Solo Project</p>
                     <p>
-                      Links: <a href="TechFolio">TechFolio</a>, <a href="https://github.com/Jerrellbb/Techfoliohub" target="_blank" rel="noreferrer">GitHub</a>
+                      Links: <a href="https://techfolio-aa1cce7a2132.herokuapp.com/" target="_blank" rel="noreferrer">TechFolio</a>, <a href="https://github.com/Jerrellbb/Techfoliohub" target="_blank" rel="noreferrer">GitHub</a>
                     </p>
                   </div>
 
