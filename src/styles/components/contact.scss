@@ -1,9 +1,16 @@
-.contact{
+.contact {
   text-align: center;
-  background-color: black;
+  background-color: #1B1B1D;
   color: white;
-  .links{
+
+  .links {
     display: flex;
     justify-content: center;
+    gap: 10px;
+
+    a {
+      color: white;
+
+    }
   }
 }

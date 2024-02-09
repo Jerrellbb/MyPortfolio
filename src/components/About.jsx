@@ -15,7 +15,7 @@ export default function About() {
               I am an adaptable professional transitioning from private security to web development, combining a friendly attitude with strong dedication. My journey into full-stack web development began with an intensive three-month software engineering course at General Assembly. With a foundation in effective communication, teamwork, and dependable leadership, I bring a unique set of skills to the tech realm.
             </p>
             <p>
-              Fueled by my passion for gaming and technology, I channel creativity and motivation into crafting visually appealing and user-friendly interfaces. I&apos;m good at solving problems and enjoy working with others. I&apos;m dedicated to making things better for users by using my technical skills and paying attention to details. I&apos;m a reliable and friendly team member who&apos;s always ready to contribute.
+              Fueled by my passion for gaming, technology and staying active in the gym, I channel creativity and motivation into crafting visually appealing and user-friendly interfaces. My love for gaming has played a part in my problem-solving skills and taught me the value of collaborating with others. Regularly hitting the gym not only demonstrates my commitment to physical health and well-being but also reflects my discipline, determination, and goal-oriented mindset. I&apos;m dedicated to making things better for users by using my technical skills and paying attention to details. I&apos;m a reliable and friendly team member who&apos;s always ready to contribute.
             </p>
           </div>
 

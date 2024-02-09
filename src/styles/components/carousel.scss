@@ -8,8 +8,8 @@
 }
 
 .carousel img {
-  width: 640px;
-  height: 310px;
+  width: 99%;
+  height: 89%;
   border-radius: 8px;
   
 }
@@ -54,7 +54,7 @@
 }
 
 .carousel img.hiddenRight {
-  z-index: 0; /* Ensure hidden images are behind the visible one */
+  z-index: 0; 
 }
 
 .carousel img.hiddenLeft {
@@ -62,15 +62,16 @@
 }
 
 .carousel img.exit {
-  z-index: 2; /* Ensure the exiting image is on top during exit animation */
+  z-index: 2; 
 }
 
 @media (max-width: 768px){
   .carousel{
     margin-top: 15px;
+    height: 260px;
   }
   .carousel img {
-    max-width: 99%;
-    max-height: 99%;
+    width: 99%;
+    height: 89%;
   }
 }

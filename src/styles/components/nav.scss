@@ -1,13 +1,12 @@
 .navbar {
   display: flex;
-  
   justify-content: center;
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
-  background-color: black; 
-  z-index: 1000;
+  // height: 50px;
+  background-color: #1B1B1D; 
+  z-index: 2;
   button{
     margin: 3px;
 
