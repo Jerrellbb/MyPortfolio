@@ -3,6 +3,7 @@ import project1 from "../assets/images/ninjump.png"
 import project2 from "../assets/images/superhero.png"
 import project3 from "../assets/images/legends.png"
 import project4 from "../assets/images/techfolio.png"
+import project5 from "../assets/images/project5.png"
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -14,8 +15,10 @@ export default function Projects() {
     project1,
     project2,
     project3,
-    project4
-  ]//reminder to update superhero picture and redeploy
+    project4,
+    project5
+
+  ]
   return (
     <>
       <div className="projects">
@@ -50,7 +53,7 @@ export default function Projects() {
                     <h3>Project 2: Heroes and Villains</h3>
                     <p>Paired-project</p>
                     <p>
-                      Links: <a href="https://superherosearch.netlify.app/"  target="_blank" rel="noreferrer">Heroes and Villains</a>, <a href="https://github.com/Jerrellbb/Heroes-and-Villains" target="_blank" rel="noreferrer">GitHub</a>
+                      Links: <a href="https://superherosearch.netlify.app/" target="_blank" rel="noreferrer">Heroes and Villains</a>, <a href="https://github.com/Jerrellbb/Heroes-and-Villains" target="_blank" rel="noreferrer">GitHub</a>
                     </p>
                   </div>
 
@@ -90,6 +93,21 @@ export default function Projects() {
 
                   <p>
                     Techfolio was a week-long project and was the last project from my General Assembly course, representing my proficiency in full-stack development. This web application integrates a Python Django API with Django REST Framework, to establish a back-end connected to a Postgres database. On the front end, a visually striking React-based interface enhances user experience, making it not only functional but also aesthetically impressive.
+                  </p>
+                </div>
+              </Col>
+              <Col md={6}>
+                <div className="project-container">
+                  <div className="info-centered">
+                    <h3>Project 5: Krep Konnect</h3>
+                    <p>Side Project</p>
+                    <p>
+                      Links: <a href="https://myfirstecomproject-366f55c308fc.herokuapp.com/" target="_blank" rel="noreferrer">Krep Konnect</a>, <a href="https://github.com/Jerrellbb/ecomproject" target="_blank" rel="noreferrer">GitHub</a>
+                    </p>
+                  </div>
+
+                  <p>
+                    My debut full-stack project after completing General Assembly, I tackled the creation of an e-commerce platform. I incorporated Stripe for secure online payments, offering hands-on experience with real-world transactional systems. This project not only enhanced my development skills but also  primed me for future work environments requiring similar functionalities.
                   </p>
                 </div>
               </Col>

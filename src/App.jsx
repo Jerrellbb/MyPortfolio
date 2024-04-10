@@ -33,7 +33,7 @@ function App() {
         <div className="parallax-bg2">
 
         </div>
-        <div  id="projects">
+        <div id="projects">
           <Projects />
         </div>
 
