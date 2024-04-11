@@ -41,7 +41,14 @@
 
 @media (max-width: 768px){
   .project-container{
-    height: fit-content;
+    overflow: auto;
+    
+  }
+}
+
+@media (orientation: landscape) {
+  .project-container{
+    overflow: auto;
     
   }
 }
